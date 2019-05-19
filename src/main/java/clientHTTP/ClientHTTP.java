@@ -101,7 +101,8 @@ public class ClientHTTP {
         ClientHTTP clientHTTP = new ClientHTTP("www.test.com", 80);
         while(true){
             try{
-                //clientHTTP.post("requete test");
+                clientHTTP.post("requete test");
+                System.out.println("pas d'esception");
             }
             catch( Exception e){
                 System.out.println(e.getMessage());
